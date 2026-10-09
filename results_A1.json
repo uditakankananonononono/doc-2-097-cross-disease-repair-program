@@ -1,0 +1,94 @@
+{
+ "primary": {
+  "platform": "ALL",
+  "set": "DNA Repair",
+  "n_signatures": 555,
+  "n_gse": 341,
+  "n_target_genes": 133,
+  "obs_net_up": 0.005960848182439804,
+  "null_mean": 0.0003677097881306933,
+  "effect": 0.005593138394309111,
+  "p_one_sided": 0.0010998900109989002,
+  "effect_ci95": [
+   0.00264178045460119,
+   0.008546996344292155
+  ]
+ },
+ "G1": {
+  "false_positive_rate": 0.055,
+  "pass_": true
+ },
+ "G2": {
+  "effect": 0.005593138394309111,
+  "ci": [
+   0.00264178045460119,
+   0.008546996344292155
+  ],
+  "p": 0.0010998900109989002,
+  "pass_": false
+ },
+ "LABEL": "HONEST NEGATIVE [post-floor-miss population change (A1); second look; platform-pooled]",
+ "reported_only": {
+  "non_neoplastic": {
+   "platform": "ALL",
+   "set": "DNA Repair",
+   "n_signatures": 420,
+   "n_gse": 257,
+   "n_target_genes": 127,
+   "obs_net_up": 0.003168354043737054,
+   "null_mean": 2.9701897040569574e-05,
+   "effect": 0.0031386521466964844,
+   "p_one_sided": 0.027897210278972105,
+   "effect_ci95": [
+    2.9304044308971666e-05,
+    0.006212755797010356
+   ]
+  },
+  "G2M_reference_set": {
+   "platform": "ALL",
+   "set": "G2-M Checkpoint",
+   "n_signatures": 555,
+   "n_gse": 341,
+   "n_target_genes": 179,
+   "obs_net_up": 0.00591876870021224,
+   "null_mean": 0.0001962514202602384,
+   "effect": 0.0057225172799520016,
+   "p_one_sided": 9.999000099990002e-05,
+   "effect_ci95": [
+    0.0013865143615275017,
+    0.010029683607093786
+   ]
+  },
+  "GPL96_replicate": {
+   "platform": "GPL96",
+   "set": "DNA Repair",
+   "n_signatures": 96,
+   "n_gse": 74,
+   "n_target_genes": 67,
+   "insufficient": true
+  },
+  "GPL570_only": {
+   "platform": "GPL570",
+   "set": "DNA Repair",
+   "n_signatures": 246,
+   "n_gse": 129,
+   "n_target_genes": 98,
+   "insufficient": true
+  },
+  "coverage_adjusted": {
+   "platform": "ALL",
+   "set": "DNA Repair",
+   "n_signatures": 555,
+   "n_gse": 341,
+   "n_target_genes": 133,
+   "obs_net_up": -0.0020156421584395655,
+   "null_mean": -0.0038682940886490876,
+   "effect": 0.0018526519302095221,
+   "p_one_sided": 0.45735426457354267,
+   "effect_ci95": [
+    0.002827822508411484,
+    0.008347167203429167
+   ]
+  }
+ }
+}
