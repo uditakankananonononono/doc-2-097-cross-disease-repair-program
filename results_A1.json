@@ -85,10 +85,8 @@
    "null_mean": -0.0038682940886490876,
    "effect": 0.0018526519302095221,
    "p_one_sided": 0.45735426457354267,
-   "effect_ci95": [
-    0.002827822508411484,
-    0.008347167203429167
-   ]
+   "effect_ci95": null,
+   "effect_ci95_note": "INVALID in original output: bootstrap did not use the coverage-adjusted denominator. Nulled after gate review; unaltered output in analysis_A1.log."
   }
  }
 }
