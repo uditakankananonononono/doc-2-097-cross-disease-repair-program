@@ -1,0 +1,10 @@
+commands: python3 acquire_097.py ; python3 analysis_097.py  (cwd /tmp/run97)
+start_utc 2026-10-09T20:00:11Z ; analysis start 2026-10-09T20:00:13Z ; end 2026-10-09T20:00:14Z ; exit 0
+python Python 3.10.12 numpy 2.2.6 requests 2.34.2
+lock-1 tag commit 8afeec5d8f801eee487be4a0bbce620813d265c5
+md5 creeds.json a4fad24af9ecd7ac973ebf92e1cb3471 ; hallmark.gmt a07e950680738a6ce60aedac9b96f8c9 ; results.json c96cd4818a89406ecd67c59564195a08
+
+--- DATA_HASHES.tsv
+file	md5	bytes	url
+creeds.json	a4fad24af9ecd7ac973ebf92e1cb3471	16865407	https://maayanlab.cloud/CREEDS/download/disease_signatures-v1.0.json
+hallmark.gmt	a07e950680738a6ce60aedac9b96f8c9	44235	https://maayanlab.cloud/Enrichr/geneSetLibrary?mode=text&libraryName=MSigDB_Hallmark_2020
