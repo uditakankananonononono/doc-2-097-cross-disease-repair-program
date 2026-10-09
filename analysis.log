@@ -1,0 +1,1 @@
+RESULT_JSON {"primary": {"platform": "GPL570", "set": "DNA Repair", "n_signatures": 246, "n_gse": 129, "n_target_genes": 98, "insufficient": true}, "LABEL": "INSUFFICIENT-DATA"}
